@@ -131,9 +131,9 @@ ENV \
 
 # Expose ports.
 #   - 8080: HTTP traffic
-#   - 4443: HTTPs traffic
+#   - 443: HTTPs traffic
 #   - 8181: Management web interface
-EXPOSE 8080 4443 8181
+EXPOSE 8080 443 8181
 
 # Metadata.
 LABEL \
